@@ -6,7 +6,7 @@
       "model": {
         "loader": "fusion:model",
         "type": "fusion:connecting",
-        "parent": "minecraft:block/template_glass_pane_side",
+        "parent": "quark_framed_glass_ct:block/template_glass_pane_side",
         "connections": {
           "type": "fusion:or",
           "predicates": [

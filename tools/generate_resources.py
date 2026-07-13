@@ -50,13 +50,13 @@ PANE_MODEL_SUFFIXES = (
     "side_west",
 )
 PANE_TEMPLATES = {
-    "post": "minecraft:block/template_glass_pane_post",
-    "noside": "minecraft:block/template_glass_pane_noside",
-    "noside_alt": "minecraft:block/template_glass_pane_noside_alt",
-    "side_north": "minecraft:block/template_glass_pane_side",
-    "side_east": "minecraft:block/template_glass_pane_side",
-    "side_south": "minecraft:block/template_glass_pane_side_alt",
-    "side_west": "minecraft:block/template_glass_pane_side_alt",
+    "post": f"{NAMESPACE}:block/template_glass_pane_post",
+    "noside": f"{NAMESPACE}:block/template_glass_pane_noside",
+    "noside_alt": f"{NAMESPACE}:block/template_glass_pane_noside_alt",
+    "side_north": f"{NAMESPACE}:block/template_glass_pane_side",
+    "side_east": f"{NAMESPACE}:block/template_glass_pane_side",
+    "side_south": f"{NAMESPACE}:block/template_glass_pane_side_alt",
+    "side_west": f"{NAMESPACE}:block/template_glass_pane_side_alt",
 }
 
 DIRECTION_TILES = {
@@ -378,6 +378,77 @@ def make_pane_blockstate(variant: str) -> dict[str, Any]:
     }
 
 
+def pane_template_models() -> dict[str, dict[str, Any]]:
+    common = {"ambientocclusion": False, "textures": {"particle": "#pane"}}
+    return {
+        "template_glass_pane_post": {
+            **deepcopy(common),
+            "elements": [
+                {
+                    "from": [7, 0, 7],
+                    "to": [9, 16, 9],
+                    "faces": {
+                        "down": {"uv": [7, 7, 9, 9], "texture": "#edge"},
+                        "up": {"uv": [7, 7, 9, 9], "texture": "#edge"},
+                    },
+                }
+            ],
+        },
+        "template_glass_pane_noside": {
+            **deepcopy(common),
+            "elements": [
+                {
+                    "from": [7, 0, 7],
+                    "to": [9, 16, 9],
+                    "faces": {"north": {"texture": "#pane"}},
+                }
+            ],
+        },
+        "template_glass_pane_noside_alt": {
+            **deepcopy(common),
+            "elements": [
+                {
+                    "from": [7, 0, 7],
+                    "to": [9, 16, 9],
+                    "faces": {"east": {"texture": "#pane"}},
+                }
+            ],
+        },
+        "template_glass_pane_side": {
+            **deepcopy(common),
+            "elements": [
+                {
+                    "from": [7, 0, 0],
+                    "to": [9, 16, 7],
+                    "faces": {
+                        "down": {"uv": [7, 0, 9, 7], "texture": "#edge"},
+                        "up": {"uv": [7, 0, 9, 7], "texture": "#edge"},
+                        "north": {"texture": "#edge", "cullface": "north"},
+                        "west": {"texture": "#pane"},
+                        "east": {"texture": "#pane"},
+                    },
+                }
+            ],
+        },
+        "template_glass_pane_side_alt": {
+            **deepcopy(common),
+            "elements": [
+                {
+                    "from": [7, 0, 9],
+                    "to": [9, 16, 16],
+                    "faces": {
+                        "down": {"uv": [7, 0, 9, 7], "texture": "#edge"},
+                        "up": {"uv": [7, 0, 9, 7], "texture": "#edge"},
+                        "south": {"texture": "#edge", "cullface": "south"},
+                        "west": {"texture": "#pane"},
+                        "east": {"texture": "#pane"},
+                    },
+                }
+            ],
+        },
+    }
+
+
 def make_pane_model(variant: str, suffix: str) -> dict[str, Any]:
     if suffix.startswith("side_"):
         side = suffix.removeprefix("side_")
@@ -663,6 +734,17 @@ def validate(
         if len(append) != expected_append_count or not all(isinstance(model, str) for model in append):
             errors.append(f"Wrong Fusion 1.3.2 append list in {path.name}")
 
+    for template_name, expected_template in pane_template_models().items():
+        template_path = (
+            RESOURCES_DIR / "assets" / NAMESPACE / "models" / "block" / f"{template_name}.json"
+        )
+        if not template_path.is_file():
+            errors.append(f"Missing embedded pane template: {template_name}")
+            continue
+        actual_template = json.loads(template_path.read_text(encoding="utf-8"))
+        if actual_template != expected_template:
+            errors.append(f"Embedded pane template geometry changed: {template_name}")
+
     for variant in VARIANTS:
         blockstate_path = RESOURCES_DIR / "assets" / "quark" / "blockstates" / f"{pane_name(variant)}.json"
         blockstate = json.loads(blockstate_path.read_text(encoding="utf-8"))
@@ -836,6 +918,12 @@ def generate(quark_jar: Path) -> None:
                 "append": group_models + [f"{NAMESPACE}:block/{current_name}_fallback_overlay"],
                 "show_breaking_overlay": False,
             },
+        )
+
+    for template_name, template in pane_template_models().items():
+        write_json(
+            RESOURCES_DIR / "assets" / NAMESPACE / "models" / "block" / f"{template_name}.json",
+            template,
         )
 
     for variant in VARIANTS:

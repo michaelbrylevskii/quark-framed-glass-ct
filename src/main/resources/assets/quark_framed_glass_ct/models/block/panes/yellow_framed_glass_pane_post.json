@@ -1,7 +1,7 @@
 {
   "loader": "fusion:model",
   "type": "fusion:connecting",
-  "parent": "minecraft:block/template_glass_pane_post",
+  "parent": "quark_framed_glass_ct:block/template_glass_pane_post",
   "connections": {
     "type": "fusion:or",
     "predicates": [
