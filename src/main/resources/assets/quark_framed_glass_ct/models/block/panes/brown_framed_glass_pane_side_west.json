@@ -1,0 +1,2176 @@
+{
+  "loader": "fusion:model",
+  "type": "fusion:composite",
+  "models": [
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "parent": "minecraft:block/template_glass_pane_side_alt",
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:or",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:white_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:orange_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:magenta_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:light_blue_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:yellow_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:lime_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:pink_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:gray_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:light_gray_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:cyan_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:purple_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:blue_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:brown_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:green_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:red_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:black_framed_glass_pane",
+                      "properties": {
+                        "west": [
+                          "true"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:or",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:white_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:orange_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:magenta_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:light_blue_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:yellow_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:lime_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:pink_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:gray_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:light_gray_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:cyan_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:purple_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:blue_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:brown_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:green_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:red_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:black_framed_glass_pane"
+                    }
+                  ]
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "textures": {
+          "edge": "quark:block/framed_glass_pane_top",
+          "pane": "quark_framed_glass_ct:block/brown_framed_glass_base"
+        }
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/white_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:white_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:white_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/orange_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:orange_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:orange_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/magenta_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:magenta_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:magenta_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/light_blue_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:light_blue_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:light_blue_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/yellow_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:yellow_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:yellow_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/lime_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:lime_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:lime_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/pink_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:pink_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:pink_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/gray_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:gray_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:gray_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/light_gray_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:light_gray_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:light_gray_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/cyan_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:cyan_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:cyan_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/purple_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:purple_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:purple_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/blue_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:blue_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:blue_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/brown_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:brown_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:brown_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/green_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:green_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:green_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/red_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:red_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:red_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/black_framed_glass_group_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:or",
+          "predicates": [
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_state",
+                  "block": "quark:black_framed_glass_pane",
+                  "properties": {
+                    "west": [
+                      "true"
+                    ]
+                  }
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom",
+                    "top"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "fusion:and",
+              "predicates": [
+                {
+                  "type": "fusion:match_block",
+                  "block": "quark:black_framed_glass_pane"
+                },
+                {
+                  "type": "fusion:is_direction",
+                  "directions": [
+                    "bottom_left",
+                    "bottom_right",
+                    "left",
+                    "right",
+                    "top_left",
+                    "top_right"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "fusion:connecting",
+        "ambientocclusion": false,
+        "textures": {
+          "all": "quark_framed_glass_ct:block/brown_framed_glass_fallback_overlay",
+          "particle": "#all"
+        },
+        "connections": {
+          "type": "fusion:not",
+          "predicate": {
+            "type": "fusion:or",
+            "predicates": [
+              {
+                "type": "fusion:and",
+                "predicates": [
+                  {
+                    "type": "fusion:or",
+                    "predicates": [
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:white_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:orange_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:magenta_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:light_blue_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:yellow_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:lime_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:pink_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:gray_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:light_gray_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:cyan_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:purple_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:blue_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:brown_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:green_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:red_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "fusion:match_state",
+                        "block": "quark:black_framed_glass_pane",
+                        "properties": {
+                          "west": [
+                            "true"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "fusion:is_direction",
+                    "directions": [
+                      "bottom",
+                      "top"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "fusion:and",
+                "predicates": [
+                  {
+                    "type": "fusion:or",
+                    "predicates": [
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:white_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:orange_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:magenta_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:light_blue_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:yellow_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:lime_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:pink_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:gray_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:light_gray_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:cyan_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:purple_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:blue_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:brown_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:green_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:red_framed_glass_pane"
+                      },
+                      {
+                        "type": "fusion:match_block",
+                        "block": "quark:black_framed_glass_pane"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "fusion:is_direction",
+                    "directions": [
+                      "bottom_left",
+                      "bottom_right",
+                      "left",
+                      "right",
+                      "top_left",
+                      "top_right"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "elements": [
+          {
+            "from": [
+              6.998,
+              0,
+              9
+            ],
+            "to": [
+              9,
+              16,
+              16
+            ],
+            "faces": {
+              "west": {
+                "texture": "#all"
+              }
+            }
+          },
+          {
+            "from": [
+              7,
+              0,
+              9
+            ],
+            "to": [
+              9.002,
+              16,
+              16
+            ],
+            "faces": {
+              "east": {
+                "texture": "#all"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

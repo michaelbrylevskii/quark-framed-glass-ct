@@ -1,0 +1,77 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_side_north"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_side_east",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_side_south"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_side_west",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_noside"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_noside_alt"
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_noside_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "quark_framed_glass_ct:block/panes/magenta_framed_glass_pane_noside",
+        "y": 270
+      }
+    }
+  ]
+}

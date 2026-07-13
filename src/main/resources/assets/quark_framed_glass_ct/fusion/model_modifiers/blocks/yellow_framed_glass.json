@@ -1,0 +1,26 @@
+{
+  "targets": [
+    "quark:yellow_framed_glass"
+  ],
+  "append": [
+    "quark_framed_glass_ct:block/framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/white_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/orange_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/magenta_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/light_blue_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/yellow_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/lime_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/pink_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/gray_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/light_gray_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/cyan_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/purple_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/blue_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/brown_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/green_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/red_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/black_framed_glass_group_overlay",
+    "quark_framed_glass_ct:block/yellow_framed_glass_fallback_overlay"
+  ],
+  "show_breaking_overlay": false
+}

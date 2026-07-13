@@ -1,0 +1,194 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "textures": {
+    "all": "quark_framed_glass_ct:block/white_framed_glass_fallback_overlay",
+    "particle": "#all"
+  },
+  "connections": {
+    "type": "not",
+    "predicate": {
+      "type": "or",
+      "predicates": [
+        {
+          "type": "match_block",
+          "block": "quark:framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:white_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:orange_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:magenta_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:light_blue_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:yellow_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:lime_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:pink_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:gray_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:light_gray_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:cyan_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:purple_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:blue_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:brown_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:green_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:red_framed_glass"
+        },
+        {
+          "type": "match_block",
+          "block": "quark:black_framed_glass"
+        }
+      ]
+    }
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        -0.002,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#all",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16.002,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        -0.002
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#all",
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16.002
+      ],
+      "faces": {
+        "south": {
+          "texture": "#all",
+          "cullface": "south"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.002,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "west": {
+          "texture": "#all",
+          "cullface": "west"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16.002,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#all",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

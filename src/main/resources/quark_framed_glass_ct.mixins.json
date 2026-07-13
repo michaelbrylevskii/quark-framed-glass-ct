@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.michael.quarkframedglassct.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "IronBarsBlockMixin",
+    "PaneCullingBakedModelMixin",
+    "ZetaGlassBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

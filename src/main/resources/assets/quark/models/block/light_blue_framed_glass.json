@@ -1,0 +1,81 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "quark_framed_glass_ct:block/light_blue_framed_glass_base"
+  },
+  "connections": {
+    "type": "or",
+    "predicates": [
+      {
+        "type": "match_block",
+        "block": "quark:framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:white_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:orange_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:magenta_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:light_blue_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:yellow_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:lime_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:pink_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:gray_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:light_gray_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:cyan_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:purple_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:blue_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:brown_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:green_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:red_framed_glass"
+      },
+      {
+        "type": "match_block",
+        "block": "quark:black_framed_glass"
+      }
+    ]
+  }
+}
