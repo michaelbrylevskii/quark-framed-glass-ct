@@ -3,6 +3,7 @@
 ## 0.2.2 — 2026-07-12
 
 - Fixed pane overlay components using the wrong arm geometry after the public-distribution model cleanup.
+- Restored Fusion 1.3.2's rotation-sensitive outer predicate wrappers for every pane part.
 - Added exact generated-model validation for every pane orientation, overlay face, and coordinate.
 
 ## 0.2.1 — 2026-07-12

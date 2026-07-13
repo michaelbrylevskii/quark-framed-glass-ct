@@ -11,260 +11,265 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:or",
+                  "type": "fusion:and",
                   "predicates": [
                     {
-                      "type": "fusion:match_state",
-                      "block": "quark:framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
+                      "type": "fusion:or",
+                      "predicates": [
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:white_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:orange_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:magenta_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:light_blue_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:yellow_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:lime_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:pink_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:gray_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:light_gray_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:cyan_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:purple_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:blue_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:brown_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:green_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:red_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "fusion:match_state",
+                          "block": "quark:black_framed_glass_pane",
+                          "properties": {
+                            "north": [
+                              "true"
+                            ]
+                          }
+                        }
+                      ]
                     },
                     {
-                      "type": "fusion:match_state",
-                      "block": "quark:white_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:orange_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:magenta_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:light_blue_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:yellow_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:lime_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:pink_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:gray_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:light_gray_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:cyan_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:purple_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:blue_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:brown_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:green_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:red_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "fusion:match_state",
-                      "block": "quark:black_framed_glass_pane",
-                      "properties": {
-                        "north": [
-                          "true"
-                        ]
-                      }
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
                     }
                   ]
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:or",
+                  "type": "fusion:and",
                   "predicates": [
                     {
-                      "type": "fusion:match_block",
-                      "block": "quark:framed_glass_pane"
+                      "type": "fusion:or",
+                      "predicates": [
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:white_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:orange_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:magenta_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:light_blue_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:yellow_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:lime_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:pink_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:gray_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:light_gray_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:cyan_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:purple_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:blue_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:brown_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:green_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:red_framed_glass_pane"
+                        },
+                        {
+                          "type": "fusion:match_block",
+                          "block": "quark:black_framed_glass_pane"
+                        }
+                      ]
                     },
                     {
-                      "type": "fusion:match_block",
-                      "block": "quark:white_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:orange_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:magenta_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:light_blue_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:yellow_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:lime_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:pink_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:gray_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:light_gray_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:cyan_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:purple_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:blue_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:brown_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:green_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:red_framed_glass_pane"
-                    },
-                    {
-                      "type": "fusion:match_block",
-                      "block": "quark:black_framed_glass_pane"
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
                     }
-                  ]
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
                   ]
                 }
               ]
@@ -290,42 +295,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -383,42 +393,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:white_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:white_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:white_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:white_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -476,42 +491,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:orange_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:orange_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:orange_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:orange_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -569,42 +589,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:magenta_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:magenta_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:magenta_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:magenta_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -662,42 +687,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:light_blue_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:light_blue_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:light_blue_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:light_blue_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -755,42 +785,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:yellow_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:yellow_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:yellow_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:yellow_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -848,42 +883,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:lime_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:lime_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:lime_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:lime_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -941,42 +981,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:pink_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:pink_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:pink_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:pink_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1034,42 +1079,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:gray_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:gray_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:gray_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:gray_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1127,42 +1177,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:light_gray_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:light_gray_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:light_gray_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:light_gray_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1220,42 +1275,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:cyan_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:cyan_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:cyan_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:cyan_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1313,42 +1373,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:purple_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:purple_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:purple_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:purple_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1406,42 +1471,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:blue_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:blue_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:blue_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:blue_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1499,42 +1569,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:brown_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:brown_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:brown_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:brown_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1592,42 +1667,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:green_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:green_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:green_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:green_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1685,42 +1765,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:red_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:red_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:red_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:red_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1778,42 +1863,47 @@
           "type": "fusion:or",
           "predicates": [
             {
-              "type": "fusion:and",
+              "type": "fusion:or",
               "predicates": [
                 {
-                  "type": "fusion:match_state",
-                  "block": "quark:black_framed_glass_pane",
-                  "properties": {
-                    "north": [
-                      "true"
-                    ]
-                  }
-                },
-                {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom",
-                    "top"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_state",
+                      "block": "quark:black_framed_glass_pane",
+                      "properties": {
+                        "north": [
+                          "true"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom",
+                        "top"
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "fusion:and",
-              "predicates": [
-                {
-                  "type": "fusion:match_block",
-                  "block": "quark:black_framed_glass_pane"
                 },
                 {
-                  "type": "fusion:is_direction",
-                  "directions": [
-                    "bottom_left",
-                    "bottom_right",
-                    "left",
-                    "right",
-                    "top_left",
-                    "top_right"
+                  "type": "fusion:and",
+                  "predicates": [
+                    {
+                      "type": "fusion:match_block",
+                      "block": "quark:black_framed_glass_pane"
+                    },
+                    {
+                      "type": "fusion:is_direction",
+                      "directions": [
+                        "bottom_left",
+                        "bottom_right",
+                        "left",
+                        "right",
+                        "top_left",
+                        "top_right"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1873,260 +1963,265 @@
             "type": "fusion:or",
             "predicates": [
               {
-                "type": "fusion:and",
+                "type": "fusion:or",
                 "predicates": [
                   {
-                    "type": "fusion:or",
+                    "type": "fusion:and",
                     "predicates": [
                       {
-                        "type": "fusion:match_state",
-                        "block": "quark:framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
+                        "type": "fusion:or",
+                        "predicates": [
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:white_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:orange_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:magenta_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:light_blue_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:yellow_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:lime_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:pink_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:gray_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:light_gray_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:cyan_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:purple_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:blue_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:brown_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:green_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:red_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          },
+                          {
+                            "type": "fusion:match_state",
+                            "block": "quark:black_framed_glass_pane",
+                            "properties": {
+                              "north": [
+                                "true"
+                              ]
+                            }
+                          }
+                        ]
                       },
                       {
-                        "type": "fusion:match_state",
-                        "block": "quark:white_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:orange_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:magenta_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:light_blue_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:yellow_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:lime_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:pink_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:gray_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:light_gray_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:cyan_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:purple_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:blue_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:brown_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:green_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:red_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
-                      },
-                      {
-                        "type": "fusion:match_state",
-                        "block": "quark:black_framed_glass_pane",
-                        "properties": {
-                          "north": [
-                            "true"
-                          ]
-                        }
+                        "type": "fusion:is_direction",
+                        "directions": [
+                          "bottom",
+                          "top"
+                        ]
                       }
                     ]
                   },
                   {
-                    "type": "fusion:is_direction",
-                    "directions": [
-                      "bottom",
-                      "top"
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "fusion:and",
-                "predicates": [
-                  {
-                    "type": "fusion:or",
+                    "type": "fusion:and",
                     "predicates": [
                       {
-                        "type": "fusion:match_block",
-                        "block": "quark:framed_glass_pane"
+                        "type": "fusion:or",
+                        "predicates": [
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:white_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:orange_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:magenta_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:light_blue_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:yellow_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:lime_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:pink_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:gray_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:light_gray_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:cyan_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:purple_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:blue_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:brown_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:green_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:red_framed_glass_pane"
+                          },
+                          {
+                            "type": "fusion:match_block",
+                            "block": "quark:black_framed_glass_pane"
+                          }
+                        ]
                       },
                       {
-                        "type": "fusion:match_block",
-                        "block": "quark:white_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:orange_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:magenta_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:light_blue_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:yellow_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:lime_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:pink_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:gray_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:light_gray_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:cyan_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:purple_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:blue_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:brown_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:green_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:red_framed_glass_pane"
-                      },
-                      {
-                        "type": "fusion:match_block",
-                        "block": "quark:black_framed_glass_pane"
+                        "type": "fusion:is_direction",
+                        "directions": [
+                          "bottom_left",
+                          "bottom_right",
+                          "left",
+                          "right",
+                          "top_left",
+                          "top_right"
+                        ]
                       }
-                    ]
-                  },
-                  {
-                    "type": "fusion:is_direction",
-                    "directions": [
-                      "bottom_left",
-                      "bottom_right",
-                      "left",
-                      "right",
-                      "top_left",
-                      "top_right"
                     ]
                   }
                 ]

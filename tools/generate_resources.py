@@ -417,6 +417,10 @@ def make_pane_model(variant: str, suffix: str) -> dict[str, Any]:
     else:
         connections = match_pane(variant)
 
+    # Fusion 1.3.2 applies model rotations correctly only when pane predicates
+    # retain the outer single-entry `or` used by its connecting-pane format.
+    connections = {"type": "fusion:or", "predicates": [connections]}
+
     return {
         "loader": "fusion:model",
         "type": "fusion:connecting",
@@ -698,6 +702,12 @@ def validate(
             if suffix == "post":
                 if composite.get("type") != "fusion:connecting" or "models" in composite:
                     errors.append(f"Pane post must remain a single edge-only model: {model_path.name}")
+                post_connections = composite.get("connections", {})
+                if (
+                    post_connections.get("type") != "fusion:or"
+                    or len(post_connections.get("predicates", [])) != 1
+                ):
+                    errors.append(f"Pane post lost the Fusion 1.3.2 predicate wrapper: {model_path.name}")
                 continue
             components = composite.get("models", [])
             if composite.get("type") != "fusion:composite" or len(components) != 19:
@@ -706,6 +716,12 @@ def validate(
             base = components[0].get("model", {})
             if base.get("parent") != PANE_TEMPLATES[suffix]:
                 errors.append(f"Wrong pane template orientation: {model_path.name}")
+            base_connections = base.get("connections", {})
+            if (
+                base_connections.get("type") != "fusion:or"
+                or len(base_connections.get("predicates", [])) != 1
+            ):
+                errors.append(f"Pane model lost the Fusion 1.3.2 predicate wrapper: {model_path.name}")
             base_text = json.dumps(base.get("connections", {}))
             if not all(pane_id(target) in base_text for target in VARIANTS) or '"blocks"' in base_text:
                 errors.append(f"Pane base must use 17 singular predicates: {model_path.name}")
