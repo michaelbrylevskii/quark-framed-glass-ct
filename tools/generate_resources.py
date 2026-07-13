@@ -490,13 +490,13 @@ def make_pane_overlay_component(
     suffix: str,
     fallback: bool,
 ) -> dict[str, Any]:
-    suffix = "fallback" if fallback else "group"
+    texture_suffix = "fallback" if fallback else "group"
     return {
         "loader": "fusion:model",
         "type": "fusion:connecting",
         "ambientocclusion": False,
         "textures": {
-            "all": f"{NAMESPACE}:block/{name(variant)}_{suffix}_overlay",
+            "all": f"{NAMESPACE}:block/{name(variant)}_{texture_suffix}_overlay",
             "particle": "#all",
         },
         "connections": connections,
@@ -704,21 +704,28 @@ def validate(
                 errors.append(f"Wrong pane composite structure: {model_path.name}")
                 continue
             base = components[0].get("model", {})
+            if base.get("parent") != PANE_TEMPLATES[suffix]:
+                errors.append(f"Wrong pane template orientation: {model_path.name}")
             base_text = json.dumps(base.get("connections", {}))
             if not all(pane_id(target) in base_text for target in VARIANTS) or '"blocks"' in base_text:
                 errors.append(f"Pane base must use 17 singular predicates: {model_path.name}")
+            expected_elements = pane_overlay_elements(suffix)
             for donor_index, donor in enumerate(VARIANTS, start=1):
                 overlay = components[donor_index].get("model", {})
                 connection_text = json.dumps(overlay.get("connections", {}))
                 if pane_id(donor) not in connection_text or '"blocks"' in connection_text:
                     errors.append(f"Wrong donor predicate in {model_path.name}: {donor or 'plain'}")
-                if not overlay.get("elements"):
-                    errors.append(f"Missing state-aware pane overlay geometry: {model_path.name}")
+                if overlay.get("elements") != expected_elements:
+                    errors.append(
+                        f"Wrong {suffix} pane overlay coordinates or faces in {model_path.name}: {donor or 'plain'}"
+                    )
             fallback = components[-1].get("model", {})
             if fallback.get("connections", {}).get("type") != "fusion:not":
                 errors.append(f"Missing pane fallback predicate: {model_path.name}")
             if fallback.get("textures", {}).get("all") != f"{NAMESPACE}:block/{name(variant)}_fallback_overlay":
                 errors.append(f"Pane fallback uses wrong material: {model_path.name}")
+            if fallback.get("elements") != expected_elements:
+                errors.append(f"Wrong fallback pane overlay geometry: {model_path.name}")
 
         if (RESOURCES_DIR / "assets" / "quark" / "models" / "item" / f"{pane_name(variant)}.json").exists():
             errors.append(f"Pane item model must remain owned by Quark: {pane_name(variant)}")

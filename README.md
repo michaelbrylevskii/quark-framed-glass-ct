@@ -46,7 +46,7 @@ The tested combination is NeoForge 21.1.234, Quark 4.1-480 and Fusion 1.3.2+b.
 
 1. Install NeoForge for Minecraft 1.21.1.
 2. Install Quark and Fusion, including Quark's own required dependencies.
-3. Download `quark_framed_glass_ct-0.2.1.jar` from the [latest release](https://github.com/michaelbrylevskii/quark-framed-glass-ct/releases/latest).
+3. Download the newest `quark_framed_glass_ct-*.jar` from the [latest release](https://github.com/michaelbrylevskii/quark-framed-glass-ct/releases/latest).
 4. Put the JAR in your instance's `mods` directory.
 
 The add-on is not required on a dedicated server. It can safely be added to an existing client and does not alter saved worlds.
